@@ -1,0 +1,91 @@
+/*아이템*/
+.item {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.item-img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.item-text {
+  padding-left: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/*대화문*/
+.chat-me {
+  display: flex;
+  padding: 25px;
+}
+.chat-me__time {
+  color: gray;
+  font-size: smaller;
+  padding-top: 40px;
+  padding-right: 5px;
+}
+
+.chat-me__text {
+  color: white;
+  background-color: #fc7e35;
+  padding: 10px;
+  border-radius: 20px 0 20px 20px;
+}
+
+.chat-you {
+  display: flex;
+  padding: 25px;
+}
+.chat-you__time {
+  color: gray;
+  font-size: smaller;
+  padding-top: 20px;
+  padding-right: 5px;
+}
+
+.chat-you__text {
+  background-color: #eaebef;
+  padding: 10px;
+  border-radius: 0 20px 20px 20px;
+}
+
+/*알람*/
+
+.promise-icon {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.promise {
+  display: flex;
+  padding: 15px;
+  padding-bottom: 25px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.promise-text {
+  margin-top: 20px;
+}
+
+.promise-text__time {
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: gray;
+}

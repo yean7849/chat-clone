@@ -1,0 +1,30 @@
+header {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+}
+img {
+  height: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+.head-text__container {
+  padding: 5px;
+}
+
+.right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.head-text {
+  padding-left: 8px;
+  padding-top: 10px;
+  color: gray;
+}

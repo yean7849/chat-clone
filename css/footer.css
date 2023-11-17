@@ -1,0 +1,40 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  padding: 15px;
+  background-color: #f2f3f6;
+  width: 100vw;
+  position: fixed;
+}
+
+.input {
+  position: relative;
+  left: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  padding-right: 120px;
+}
+
+.send {
+  position: relative;
+  left: 30px;
+  padding-top: 6px;
+}
+
+.emo {
+  position: absolute;
+  bottom: 15px;
+  left: 290px;
+}
+
+.emo-alert {
+  width: 10px;
+  height: 10px;
+  background-color: #da925f;
+  position: absolute;
+  bottom: 40px;
+  left: 318px;
+  border-radius: 15px;
+}
